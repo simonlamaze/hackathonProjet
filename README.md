@@ -9,3 +9,5 @@ Le second aspect auquel je me suis attqué était de permettre le partage de fic
 J'ai utilisé les librairies chess.js et chessground.js , également utilisées par le site lichess ( open-source) . je pense que pour l'utiliser il vous suffira de vous créer un compte ( aucune vérification d'e-mail pur l'instant) , et de charger les fichiers PGN que j'aurai joint .
 Le site est bien sûr très loin de l'aspect que j'aimerais lui donner, même s'il était seulement à mon usage, et je compte continuer à travailler dessus lors de mon S3, mais j'ai largement travaillé une semaine dessus. 
 Est-ce que le résultat est intéressant , peut-être pas, mais ce projet a eu le mérite de m'apprendre à manipulerHTML/CSS/JS. J'ai commenté mon code au fur et à mesure, j'espère que cela sera lisible, j'avoue ne pas savoir ce qui est lisible ou non.
+
+Pour gérer les pages multiples, j'ai utilisé  une Single Page Application, car c'est le choix qui s'accordait le mieux avec l'utilisation d'un bundler ( Vite) , tous mes codes HTML se trouvent donc dans les fichiers Javascript associés, et exportés dans le JS principal sous forme de fonctions. 
