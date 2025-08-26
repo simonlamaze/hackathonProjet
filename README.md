@@ -11,3 +11,5 @@ Le site est bien sûr très loin de l'aspect que j'aimerais lui donner, même s'
 Est-ce que le résultat est intéressant , peut-être pas, mais ce projet a eu le mérite de m'apprendre à manipulerHTML/CSS/JS. J'ai commenté mon code au fur et à mesure, j'espère que cela sera lisible, j'avoue ne pas savoir ce qui est lisible ou non.
 
 Pour gérer les pages multiples, j'ai utilisé  une Single Page Application, car c'est le choix qui s'accordait le mieux avec l'utilisation d'un bundler ( Vite) , tous mes codes HTML se trouvent donc dans les fichiers Javascript associés, et exportés dans le JS principal sous forme de fonctions. 
+
+Ce que j'aimerais bien ajouter désormais : terminer de travailler sur le partage de fichiers, c'est assez bien avancé, mais j'ai je crois des soucis de sécurité côté Firebase qui bloquent pour le moment , permettre l'édition de fichiers PGN en plus de leur lecture , ainsi que développer un petit outil pour gérer les transpositions .
